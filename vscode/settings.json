@@ -1,0 +1,82 @@
+{
+    "git.autofetch": true,
+    "cmake.configureOnOpen": true,
+    "redhat.telemetry.enabled": true,
+    "explorer.confirmDelete": false,
+    "go.toolsManagement.autoUpdate": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "workbench.editorAssociations": {
+        "*.db": "sqlite-viewer.option"
+    },
+    "workbench.iconTheme": "gruvbox-material-icon-theme",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "yaml": true,
+        "python": true
+    },
+    "eslint.enable": false,
+    "workbench.editor.enablePreview": false,
+    "editor.fontFamily": "\"JetBrainsMono NF SemiBold\"",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.fontSize": 15,
+    "editor.fontWeight": "600",
+    "editor.renderWhitespace": "none",
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+    "editor.lineNumbers": "relative",
+    "hediet.vscode-drawio.resizeImages": null,
+    "jupyter.askForKernelRestart": false,
+    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.recipe.default": "tectonic",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "tectonic",
+            "tools": [
+                "tectonic-biber",
+                "tectonic"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "args": [
+                "-X",
+                "compile",
+                "%DOCFILE_EXT%",
+                "--synctex",
+                "--print"
+            ],
+            "command": "tectonic",
+            "env": {},
+            "name": "tectonic"
+        },
+        {
+            "args": [
+                "-X",
+                "compile",
+                "%DOCFILE_EXT%",
+                "-k",
+                "--reruns",
+                "0"//,
+           ],
+            "command": "tectonic",
+            "env": {},
+            "name": "tectonic-biber"
+        }
+    ],
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.message.badbox.show": false,
+    "workbench.activityBar.location": "top",
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Jellybeans Theme",
+}
